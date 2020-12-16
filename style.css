@@ -1,0 +1,691 @@
+	html, body
+	{
+		height: 100%;
+		background-color: #ffffff;
+	}
+
+	nav {
+		background-color: #ffffff;
+	}
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #333333;
+		font-family: 'Poppins', sans-serif;
+		font-size: 11pt;
+		font-weight: 300;
+		color: #656565;
+	}
+
+
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		color: #fff;
+	}
+
+	h4
+	{
+		font-size: 17px;
+		color: #000;
+		font-weight: 600;
+		padding: 0px;
+		margin: 0px;
+
+	}
+
+	p,  ul
+	{
+		margin-top: 0px;
+		margin-bottom: 0;
+		padding: 0;
+	}
+
+	ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+
+	p
+	{
+		line-height: 180%;
+	}
+
+	p.cita
+	{
+		font-style: italic;
+	}
+
+	a
+	{
+		color:  #222222;
+	}
+
+	i {
+		padding-top: 20px;
+		margin: 0px;
+		font-size: 90px;
+		color: #024A86;
+	}
+
+	i.APA{
+		padding-top: 20px;
+		margin-left: 0px;
+		font-size: 74px;
+		font-style: normal;
+		font-weight: 600;
+		color: #024A86;
+	}
+
+	i.foot
+	{
+		font-size: 50px;
+		font-style: normal;
+		font-weight: 600;
+		color: #fff;
+		padding: 20px 20px;
+
+	}
+
+	i.contacto
+	{
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 600;
+		color: #fff;
+	}
+
+
+	span.citabold
+	{
+		font-weight: 600;
+	}
+
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1000px;
+	}
+
+/*********************************************************************************/
+/* fotos                                                                 */
+/*********************************************************************************/
+	#cliente1,
+	#cliente2
+	{
+		border-radius: 50px;
+		width: 100px;
+		height: 100px;
+		margin-right: 20px;
+	}
+
+	.foto-cliente
+	{
+		display:flex;
+		justify-content: center;
+
+	}
+
+
+
+/*********************************************************************************/
+/* Botón estilo                                                                 */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 0em 3em;
+		background: #009E2D;
+		letter-spacing: 0.20em;
+		line-height: 4em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 1em;
+		color: #FFF;
+	}
+
+
+
+/*********************************************************************************/
+/* titulos                                                                */
+/*********************************************************************************/
+
+	.titulo
+	{
+		padding-bottom: 2em;
+	}
+
+	.titulo h2
+	{
+		font-size: 55px;
+		color: #000;
+	}
+
+	.titulo h3
+	{
+		display: inline-block;
+		font-size: 30px;
+		color: #024A86;
+	}
+
+	.titulo h3 span
+		{
+			font-size: 30px;
+			color: #000;
+		}
+
+	.titulo h3 span.blanco
+		{
+			font-size: 30px;
+			color: #fff;
+		}
+
+	.titulo .texto-pequeno
+	{
+		font-size: 1.7em;
+		color: #000;
+	}
+
+/*********************************************************************************/
+/* 3 columnas (nuestros editores y servicios)                                                                      */
+/*********************************************************************************/
+
+	.caja
+	{
+		border: 1px solid rgba(0,0,0,0.1);
+		border-radius: 8px;
+		text-align: center;
+		background-color: #fff;
+		width: 320px;
+		height: 420px;
+	}
+
+	.cajaA,
+	.cajaB,
+	.cajaC
+	{
+		width: 320px;
+		height: 420px;
+		height: 100%;
+		margin-bottom: 20px;
+	}
+
+	.cajaA,
+	.cajaB
+	{
+		float: left;
+		margin-right: 20px;
+	}
+
+	.cajaC
+	{
+		float: right;
+	}
+
+	.cajaA-servicios,
+	.cajaB-servicios,
+	.cajaC-servicios
+	{
+		width: 320px;
+		height: 280px;
+		height: 100%;
+		margin-bottom: 20px;
+	}
+
+	.cajaA-servicios,
+	.cajaB-servicios
+	{
+		float: left;
+		margin-right: 20px;
+	}
+
+	.cajaC-servicios
+	{
+		float: right;
+	}
+
+/*********************************************************************************/
+/* 2 columnas (opiniones clientes)                                                                   */
+/*********************************************************************************/
+	.tcaja
+	{
+		border: 1px solid rgba(0,0,0,0.1);
+		border-radius: 8px;
+		text-align: center;
+		background-color: #fff;
+		width: 320px;
+		padding: 20px;
+	}
+
+
+	.tcaja1
+	{
+		width: 450px;
+		padding: 0px 10px;
+		margin-left: 60px;
+	}
+
+
+	.tcaja2
+	{
+		width: 450px;
+		padding: 0px 10px;
+
+	}
+
+	.tcaja1
+	{
+		float: left;
+	}
+
+	.tcaja2
+	{
+		float: right;
+	}
+
+	#navegacion
+	{
+		background: #FFF;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-navegacion
+	{
+		background: #fff;
+		position: fixed;
+		width: 100%;
+		z-index: 200;
+		border-bottom: 1px solid #202020;;
+
+	}
+
+	#header
+	{
+		position: relative;
+		padding: 3em 0em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		display: flex;
+		justify-content: space-between;
+ 		align-items: center;
+		position: absolute;
+		top: 1em;
+		left: 0;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 600;
+		font-size: 16px;
+	}
+
+	#logo h1
+	{
+		color: #000;
+
+	}
+
+	#logo a
+	{
+		text-decoration: none;
+		color: #000;
+	}
+
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		position: absolute;
+		top: 2em;
+		right: 0;
+	}
+
+	#menu ul
+	{
+		display: inline-block;
+	}
+
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+
+	#menu li a, #menu li span
+	{
+		padding: 20px 20px;
+		font-size: 15px;
+		text-decoration: none;
+		font-weight: 600;
+		color: #000;
+	}
+
+
+
+
+/*********************************************************************************/
+/* primer-pagina                                                                        */
+/*********************************************************************************/
+	#ancho-nav{
+		width: 100%;
+		height: 70px;
+
+	}
+
+	#primer-pagina
+	{
+		overflow: hidden;
+		padding: 5em 0em 5em 0em;
+		position: relative;
+		background-size: cover;
+		text-align: center;
+		background-image: url("imagenes/Image_de_fondo.png");
+	}
+
+	#primer-pagina .titulo
+	{
+		margin-bottom: 1em;
+	}
+
+	#primer-pagina .titulo h2
+	{
+		color: #FFF;
+	}
+
+	#primer-pagina .titulo .texto-pequeno
+	{
+		color: #fff;
+	}
+
+	#primer-pagina .button
+	{
+		margin-top: 3em;
+		background: #024A86 !important;
+	}
+
+
+/*********************************************************************************/
+/* opiniones clientes                                                                          */
+/*********************************************************************************/
+
+	#clientes
+	{
+		padding: 5em 0em;
+		text-align: center;
+	}
+
+	#clientes .button
+	{
+		margin-top: 2em;
+		display: inline-block;
+		text-align: center;
+	}
+
+/*********************************************************************************/
+/* nuestros servicios                                                                      */
+/*********************************************************************************/
+
+	#servicios
+	{
+		overflow: hidden;
+		padding: 140px 0px 40px 0px;
+		margin-top: -80px;
+		background: #222222;
+		text-align: center;
+	}
+
+	#servicios a
+	{
+		color: rgba(255,255,255,1);
+	}
+
+	#servicios .button
+	{
+		background: #FFF;
+		margin-top: 3em;
+		font-size: 1em;
+		color: #009E2D;
+	}
+
+	#servicios .titulo
+	{
+	}
+
+	#servicios .titulo h2
+	{
+		color: #FFF;
+	}
+
+	#servicios .titulo .texto-pequeno
+	{
+		color: rgba(255,255,255,.6);
+	}
+
+/*********************************************************************************/
+/* servicios                                                                      */
+/*********************************************************************************/
+
+
+
+.caja-servicios
+{
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 8px;
+	text-align: center;
+	background-color: #fff;
+	width: 320px;
+	height: 250px;
+}
+
+.caja p
+{
+	padding: 0em 2em 2em 2em;
+}
+
+
+.caja-servicios p
+{
+	padding: 0em 2em 2em 2em;
+}
+
+
+.caja img
+{
+	border-radius: 8px;
+}
+
+
+
+/*********************************************************************************/
+/* nuestros editores                                                                      */
+/*********************************************************************************/
+
+	#editores
+	{
+		overflow: hidden;
+		padding: 6em 0em 0em 0em;
+	}
+
+	#editores .titulo
+	{
+		text-align: center;
+	}
+
+	#editores .button
+	{
+		margin-top: 5em;
+	}
+
+	#editores .fa
+	{
+		display: block;
+		margin-bottom: 0.5em;
+		text-align: center;
+		font-size: 3em;
+	}
+
+
+	/*********************************************************************************/
+	/* Envíanos tu texto                                                                     */
+	/*********************************************************************************/
+
+
+	#envianos-tu-texto
+ 	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+		padding: 5em 0em 5em 0em;
+		position: relative;
+		background-size: cover;
+		width: 100%;
+		text-align: center;
+		background-image: url("imagenes/Image_de_fondo.png");
+ 	}
+
+	.envianos-titulo
+	{
+		width: 100%;
+		color: #fff;
+		font-size: 25px;
+		margin-bottom: 10px;
+
+	}
+
+	#container-form
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		text-align: center;
+		background-color: #fff;
+  	padding: 40px;
+		width: 60%
+	}
+
+	input[type=text], select, textarea {
+	  width: 100%;
+	  padding: 12px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	  margin-top: 6px;
+	  margin-bottom: 16px;
+	  resize: vertical
+		font-family: 'Poppins', sans-serif;
+		font-size: 15px;
+		font-weight: 500;
+
+	}
+
+
+	input[type=submit] {
+	  background-color: #024A86;;
+	  color: white;
+	  padding: 12px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+
+	input[type=submit]#cargar-archivo {
+	  background-color: #fff;
+	  color: #000;
+	  padding: 12px 20px;
+		border: 1px solid #ccc;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+
+	#enviar
+	{
+		display: flex;
+		justify-content: space-between;
+	}
+
+
+
+
+	.footer
+	{
+		display: flex;
+		flex-direction: row;
+		background-color: #222222;
+		justify-content: space-space-between;
+		padding: 60px 100px;
+	}
+
+	.foot-column1
+	{
+		display: flex;
+		text-decoration: none;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	#logo-footer
+	{
+		display: flex;
+		flex-direction: row;
+		text-decoration: none;
+		color: #fff;
+
+	}
+
+	p.foot-column1
+	{
+		margin-right: -2px;
+		color: #fff;
+		font-size: 15px;
+	}
+
+	.foot-column1 p
+	{
+		color: #fff;
+		font-size: 15px;
+	}
+
+
+	.foot-column2
+	{
+		display: flex;
+		flex-direction: row;
+		text-decoration: none;
+		align-items: center;
+		color: #fff;
+	}
+
+	#social-logos
+	{
+		display: flex;
+		font-size: 10px;
+		flex-direction: row;
+		text-decoration: none;
+		align-content: center;
+		justify-content: center;
+		font-size: 4px !important;
+		color: #fff !important;
